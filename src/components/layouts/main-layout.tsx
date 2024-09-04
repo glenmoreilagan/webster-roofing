@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 import Navigation from './navigation'
 
 export default function MainLayout({ children }: { children: ReactNode }) {
