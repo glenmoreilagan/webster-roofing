@@ -20,7 +20,7 @@ export default function WhyNeedOurHelp() {
               className='h-full w-full object-cover rounded-l-lg'
             />
           </div>
-          <div className='w-full bg-white rounded-r-lg shadow'>
+          <div className='w-full bg-white rounded-r-lg shadow-sm'>
             <div className='p-6 space-y-6'>
               <h1 className='text-my-primary text-4xl font-semibold'>01</h1>
               <p className='text-center'>
@@ -32,7 +32,7 @@ export default function WhyNeedOurHelp() {
           </div>
         </div>
         <div className='flex h-64 mb-14'>
-          <div className='w-full bg-white rounded-l-lg shadow'>
+          <div className='w-full bg-white rounded-l-lg shadow-sm'>
             <div className='p-6 space-y-6'>
               <h1 className='text-my-primary text-4xl font-semibold'>02</h1>
               <p className='text-center'>
@@ -58,7 +58,7 @@ export default function WhyNeedOurHelp() {
               className='h-full w-full object-cover rounded-l-lg'
             />
           </div>
-          <div className='w-full bg-white rounded-r-lg shadow'>
+          <div className='w-full bg-white rounded-r-lg shadow-sm'>
             <div className='p-6 space-y-6'>
               <h1 className='text-my-primary text-4xl font-semibold'>03</h1>
               <p className='text-center'>
@@ -70,7 +70,7 @@ export default function WhyNeedOurHelp() {
           </div>
         </div>
         <div className='flex h-64 mb-14'>
-          <div className='w-full bg-white rounded-l-lg shadow'>
+          <div className='w-full bg-white rounded-l-lg shadow-sm'>
             <div className='p-6 space-y-6'>
               <h1 className='text-my-primary text-4xl font-semibold'>04</h1>
               <p className='text-center'>

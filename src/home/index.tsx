@@ -11,9 +11,9 @@ export default function HomeIndex() {
         className='relative overflow-hidden'
         style={{ backgroundImage: `url(${HeroImage})`, backgroundSize: 'cover', height: 'calc(100vh - 6rem)' }}
       >
-        <WrapperLayout>
-          <div className='flex py-40 gap-40'>
-            <div>
+        <WrapperLayout className='h-full'>
+          <div className='flex items-center gap-40 h-full'>
+            <div className='w-[40rem]'>
               <div className='mb-6'>
                 <h3 className='lowercase text-white font-medium text-4xl'>all in one</h3>
                 <h1 className='uppercase text-white font-bold text-7xl'>best roofing solutions</h1>

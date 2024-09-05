@@ -48,9 +48,9 @@ export default function ServicePage() {
             <div className='relative' key={index}>
               <img src={item.image} alt='' className='h-96 rounded-lg' />
 
-              <div className='absolute bg-white shadow w-[28rem] left-40 top-24 rounded-lg space-y-6 p-6'>
-                <h4 className='font-semibold text-center text-xl'>{item.title}</h4>
-                <p className='text-center'>{item.description}</p>
+              <div className='absolute bg-white shadow-sm w-[24rem] left-40 top-24 rounded-lg space-y-6 p-6'>
+                <h4 className='font-semibold text-center text-lg'>{item.title}</h4>
+                <p className='text-center text-sm'>{item.description}</p>
 
                 <div className='flex justify-center'>
                   <button className='bg-my-primary text-my-secondary font-medium text-sm uppercase px-8 py-1 rounded-full'>

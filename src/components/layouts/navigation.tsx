@@ -1,7 +1,7 @@
 export default function Navigation() {
   return (
     <header>
-      <nav className='bg-white flex items-center justify-between max-w-7xl mx-auto font-mons'>
+      <nav className='bg-white flex items-center justify-between max-w-6xl mx-auto font-mons'>
         <h1 className='uppercase font-semibold text-my-primary'>Webster Roofing</h1>
         <ul className='flex gap-6 justify-end items-center h-24 text-my-primary font-medium'>
           <li>Home</li>
