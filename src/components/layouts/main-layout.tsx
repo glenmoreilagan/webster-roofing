@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import Navigation from './navigation'
+import Footer from '../footer'
 
 export default function MainLayout({ children }: { children: ReactNode }) {
   return (
@@ -7,6 +8,8 @@ export default function MainLayout({ children }: { children: ReactNode }) {
       <Navigation />
 
       <main className='bg-my-background font-mons'>{children}</main>
+
+      <Footer />
     </>
   )
 }
